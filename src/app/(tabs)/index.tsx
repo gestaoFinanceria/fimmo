@@ -1,9 +1,11 @@
-import { Text, View } from 'react-native'
+import { router } from 'expo-router';
+import { Button, Text, View } from 'react-native';
 
-export default function TabOneScreen () {
+export default function Home () {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Tab One</Text>
+      <Text>Home</Text>
+      <Button title='Sair' onPress={() => router.replace('/entrada')}/>
     </View>
-  )
+  );
 }
