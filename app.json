@@ -1,25 +1,29 @@
 {
   "expo": {
-    "name": "fimmo",
-    "slug": "fimmo",
+    "name": "Traevo",
+    "slug": "traevo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "",
-    "scheme": "fimmo",
+    "icon": "./src/assets/images/icon.png",
+    "scheme": "traevo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "",
+      "image": "./src/assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#18996d",
+      "dark": {
+        "image": "./src/assets/images/splash-dark.png",
+        "backgroundColor": "#1e1e1e"
+      }
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#18996d"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
@@ -27,7 +31,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "g"
+      "favicon": "./src/assets/images/favicon.svg"
     },
     "plugins": [
       "expo-router"
