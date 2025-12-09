@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "fimmo",
-    "slug": "fimmo",
+    "name": "traevo",
+    "slug": "traevo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "",
-    "scheme": "fimmo",
+    "scheme": "traevo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {

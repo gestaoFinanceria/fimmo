@@ -1,4 +1,4 @@
-import SecureStorage from 'expo-secure-store'
+import * as SecureStorage from 'expo-secure-store'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
 export async function setStorage<T>(key: string, value: T, secureStorage = false) {
